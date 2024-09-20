@@ -1,0 +1,378 @@
+/* Basic Reset */
+/*  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* header*/
+.img-container {
+    background-image: url("https://i.ibb.co/PNfwFjg/Screenshot-from-2024-09-20-09-41-33.png" );
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    width: 95vw; /* 100% of the viewport width */
+    height: 96vh; /* 100% of the viewport height */
+    box-sizing: border-box;
+    margin-left: 4.1%;
+  
+}
+header {
+    background-color: black;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height:40%;
+}
+a {
+    color:#eaeaea;
+    margin-left:70px;
+    padding:10px;
+    text-decoration: none;
+    font-size:25px;
+}
+nav {
+    padding-top:40px;
+    
+}
+a:hover {
+ color:yellow;
+ text-decoration:underline;
+}
+
+.heading {
+    margin-top:200px;
+    padding-left:60px;
+    font-family: 'cursive';
+}
+.heading h1 {
+    color:rgb(233, 181, 7);
+    font-size:55px;
+    
+}
+.heading h2 {
+    color:white;
+    font-size:50px;
+}
+
+.btn {
+    margin-left:-30px;
+    background-color: rgb(233, 181, 7);
+    width:150px;
+    height:70px;
+    border-radius: 20px;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:20px;
+
+}
+button:hover {
+    background-color: rgb(169, 165, 156);
+    color:white;
+    text-decoration: underline;
+}
+/* About Me Section */
+.about-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-content img {
+
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.about-content p {
+    max-width: 610px;
+    font-size: 20px;
+}
+
+/*****grid****/
+.grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-color: white;
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.icon {
+    width: 70px;
+    margin-bottom: 20px;
+    height:70px;
+}
+
+.box h3 {
+    margin-bottom: 15px;
+}
+
+.box p {
+    font-size: 14px;
+    color: #666;
+}
+
+/*  */
+/* Portfolio Section */
+.container-1 {
+    height:400px;
+    
+}
+
+.portfolio-section {
+    background-color: #e8e8ed;
+    padding: 50px 40px;
+    text-align: center;
+    height:450px;
+}
+
+
+
+.portfolio-section h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-style: bold;
+}
+
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.portfolio-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item h3 {
+    margin-bottom: 10px;
+    color:rgb(155, 128, 42);
+    font-size: 30px;
+    
+}
+
+.portfolio-item p {
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+.portfolio-item a {
+    background-color: rgb(155, 128, 42);
+    color: white;
+    margin-left:10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.portfolio-item a:hover {
+    background-color: #555;
+}
+.logo {
+    width:150px;
+    height:150px;
+}
+/* Contact Section */
+.contact-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.social-links a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* responsiveeee */
+@media screen and (max-width:768px){
+    .grid {
+        display: inline-block;
+        width:100%;
+        border:1px solid black;
+        
+    }
+    .box {
+        border:1px solid black;
+        width:100%;
+        margin:10px 10px 10px 10px;
+    }
+
+     .portfolio-grid {
+        display:inline-block;
+        
+     }
+     .portfolio-item {
+        width:100%;
+        margin:15px 15px 15px 15px;
+     }
+     .portfolio-section {
+      height:950px;
+    
+     }
+    }
+    @media screen and (max-width: 1024px){
+        .img-container {
+            background-image: none;
+            background-color: rgb(39, 36, 36);
+            padding:0px;
+            margin:0px;
+            height:400px;
+            
+        }
+        nav {
+            font-size: 20px;
+          
+        }
+        .heading {
+            margin: 40px 18px;
+        }
+        .heading h1 {
+            font-size:40px;
+        }
+        .heading h2 {
+            font-size:40px;
+        }
+        .btn {
+           margin-top:-20px;
+           margin-left:5px;
+        }
+    }
+  @media screen and (max-width:716px){
+    nav a {
+        font-size: 20px;
+        margin:0px;
+       
+    }
+    nav {
+        width:430px;
+        padding-inline-start: 50px;
+        padding-top:0px;
+        border:#eaeaea 2px solid;
+        box-shadow:#ccc;
+    }
+
+
+  }
+    @media screen and (max-width:1250px) {
+        header {
+            background-color:#2A2525;
+        }
+    }        
+    
+    
+   
+.header {
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
